@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class ClothingStore extends Location {
@@ -33,3 +34,19 @@ return null;
 	   }
 	}// end clothing store
 } // end 
+=======
+public class ClothingStore extends Store {
+
+
+    public ClothingStore() {
+        super("Clothing Store");
+        items.add(new Item("T-Shirt", 20));
+        items.add(new Item("Jeans", 40));
+        items.add(new Item("Jacket", 60));
+
+     
+    }
+
+}
+
+>>>>>>> 1a39af2a74d9ced68b5580e4cb5b24ceb7f92f6e

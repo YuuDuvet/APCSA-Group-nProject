@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public class Starbucks extends Store {
 
@@ -24,3 +25,15 @@ public class Starbucks extends Store {
 }
 
 
+=======
+public class Starbucks extends Store {
+
+    public Starbucks() {
+        super("Starbucks");
+        items.add(new Item("Latte", 7));
+        items.add(new Item("Frappuccino", 8));
+        items.add(new Item("Cake Pop", 4));
+    }
+}
+
+>>>>>>> 1a39af2a74d9ced68b5580e4cb5b24ceb7f92f6e
